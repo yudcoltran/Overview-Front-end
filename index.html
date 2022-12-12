@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymax</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c672e81c5b.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( ".tab" ).tabs();
+        } );
+    </script>
+</head>
+<body>
+    <div class="hero">
+        <div class="header">
+            <nav class="flex center-div grid-layout">
+                <a href="#" class="logo">
+                    <img src="./img/Logo.png" alt="logo">
+                </a>
+                <ul class="navbar flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <div class="search-bar flex">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <span></span>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <span></span>
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </nav>
+        </div>
+        <div class="shop-intro center-div grid-layout flex">
+            <div class="left-col">
+                <h1>Dumbbells Shop</h1>
+                <h2>Best body fitness</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                <button type="button">Shop Now</button>
+            </div>
+
+            <div class="right-col">
+                <img src="./img/hero-main-character.png" alt="">
+            </div>
+        </div>
+    </div>
+    <section class="main grid-layout center-div">
+        <div class="product-category flex">
+            <div class="pos-1 cat">
+                <img src="./img/dumbbells.jpg" alt="img">
+            </div>
+            <div class="pos-2 cat">
+                <img src="./img/strength.jpg" alt="img">
+            </div>
+            <div class="pos-3 cat">
+                <img src="./img/power-rack&cage.jpg" alt="img">
+            </div>
+            <div class="pos-4 cat flex-vertical">
+                <h3>dumbells</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="pos-5 cat flex-vertical">
+                <h3>strength</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="pos-6 cat flex-vertical">
+                <h3>power rack & cages</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <div class="list-products grid-layout center-div">
+            <div class="tab">
+                <!-- <button class="tab-link" onClick="openProducts(event, 'top-sellers')">top sellers</button>
+                <button class="tab-link" onClick="openProducts(event, 'features')">featured</button>
+                <button class="tab-link" onClick="openProducts(event, 'most-views')">most reviews</button> -->
+                <a href="top-sellers" class="active">top sellers</a>
+                <a href="featured">featured</a>
+                <a href="most-views">most reviews</a>
+            </div>
+            <hr>
+            <div id="top-sellers" class="products flex">
+                <div class="product">
+                    <img src="./img/Body-Champ-Cardio-Dual-Trainer.jpg" alt="item">
+                    <p class="text-line">Body Champ Cardio</p>
+                    <span class="text-line">$342.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Body-Solid-GCEC340-Cam-Series-Leg-Extension-Curl-Machine.jpg" alt="item">
+                    <p class="text-line">Body Solid GCEC340</p>
+                    <span class="text-line">$214.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Bowflex-BXE116-Elliptical.jpg" alt="item">
+                    <p class="text-line">Bowflex BXE116 Elliptical</p>
+                    <span class="text-line">$421.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/ETHOS-GHD-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">ETHOS GHD</p>
+                    <span class="text-line">$152.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/AFG-Pro-7.2AI-Incline-Trainer.jpg" alt="item">
+                    <p class="text-line">AFG Pro 7.2AI Incline</p>
+                    <span class="text-line">$252.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Marcy-Standard-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">Weight Bench</p>
+                    <span class="text-line">$412.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/ProForm-Hiit-Trainer-Lite 5.9.jpg" alt="item">
+                    <p class="text-line">ProForm Hiit Trainer Lite 5.9</p>
+                    <span class="text-line">$300.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Fitness-Gear-Pro-Olympic-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">Fitness Gear Pro</p>
+                    <span class="text-line">$124.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="featured" class="products flex" style="display: none;">
+                <div class="product">
+                    <img src="./img/Body-Champ-Cardio-Dual-Trainer.jpg" alt="item">
+                    <p class="text-line">Body Champ Cardio</p>
+                    <span class="text-line">$342.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Body-Solid-GCEC340-Cam-Series-Leg-Extension-Curl-Machine.jpg" alt="item">
+                    <p class="text-line">Body Solid GCEC340</p>
+                    <span class="text-line">$214.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Bowflex-BXE116-Elliptical.jpg" alt="item">
+                    <p class="text-line">Bowflex BXE116 Elliptical</p>
+                    <span class="text-line">$421.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/ETHOS-GHD-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">ETHOS GHD</p>
+                    <span class="text-line">$152.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/AFG-Pro-7.2AI-Incline-Trainer.jpg" alt="item">
+                    <p class="text-line">AFG Pro 7.2AI Incline</p>
+                    <span class="text-line">$252.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Marcy-Standard-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">Weight Bench</p>
+                    <span class="text-line">$412.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/ProForm-Hiit-Trainer-Lite 5.9.jpg" alt="item">
+                    <p class="text-line">ProForm Hiit Trainer Lite 5.9</p>
+                    <span class="text-line">$300.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Fitness-Gear-Pro-Olympic-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">Fitness Gear Pro</p>
+                    <span class="text-line">$124.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="most-views" class="products flex" style="display: none;">
+                <div class="product">
+                    <img src="./img/Body-Champ-Cardio-Dual-Trainer.jpg" alt="item">
+                    <p class="text-line">Body Champ Cardio</p>
+                    <span class="text-line">$342.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Body-Solid-GCEC340-Cam-Series-Leg-Extension-Curl-Machine.jpg" alt="item">
+                    <p class="text-line">Body Solid GCEC340</p>
+                    <span class="text-line">$214.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Bowflex-BXE116-Elliptical.jpg" alt="item">
+                    <p class="text-line">Bowflex BXE116 Elliptical</p>
+                    <span class="text-line">$421.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/ETHOS-GHD-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">ETHOS GHD</p>
+                    <span class="text-line">$152.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/AFG-Pro-7.2AI-Incline-Trainer.jpg" alt="item">
+                    <p class="text-line">AFG Pro 7.2AI Incline</p>
+                    <span class="text-line">$252.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Marcy-Standard-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">Weight Bench</p>
+                    <span class="text-line">$412.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/ProForm-Hiit-Trainer-Lite 5.9.jpg" alt="item">
+                    <p class="text-line">ProForm Hiit Trainer Lite 5.9</p>
+                    <span class="text-line">$300.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="product">
+                    <img src="./img/Fitness-Gear-Pro-Olympic-Weight-Bench.jpg" alt="item">
+                    <p class="text-line">Fitness Gear Pro</p>
+                    <span class="text-line">$124.00</span>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-right-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       <div class="testimonials grid-layout center-div">
+
+       </div>
+       <hr>
+       <div class="brands grid-layout flex center-div">
+            <img src="./img/Brand-1.png" alt="logo-brand">
+            <img src="./img/Brand-2.png" alt="logo-brand">
+            <img src="./img/Brand-3.png" alt="logo-brand">
+            <img src="./img/Brand-4.png" alt="logo-brand">
+            <img src="./img/Brand-5.png" alt="logo-brand">
+            <img src="./img/Brand-6.png" alt="logo-brand">
+       </div>
+    </section>
+    <footer>
+        <div class="footer-content grid-layout center-div">
+            <div class="upper-footer flex">
+                <img src="./img/Logo.png" alt="logo">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                <ul class="flex">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="below-footer flex">
+                <div class="contact-us col">
+                    <h3>contact us</h3>
+                    <a href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        200 Lincoln Ave, Salinas, CA 93901
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-phone-flip"></i>
+                        023 32423 223
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                        gymax@example.com
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-clock"></i>
+                        9:00 - 20:00 All day
+                    </a>
+                </div>
+                <div class="my-acount col">
+                    <h3>contact us</h3>
+                    <a href="#">
+                        My account
+                    </a>
+                    <a href="#">
+                        Check out
+                    </a>
+                    <a href="#">
+                        Register
+                    </a>
+                    <a href="#">
+                        Login
+                    </a>
+                </div>
+                <div class="info col">
+                    <h3>infomation</h3>
+                    <a href="#">
+                        About us
+                    </a>
+                    <a href="#">
+                        Contact us
+                    </a>
+                    <a href="#">
+                        Terms of user
+                    </a>
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+                </div>
+                <div class="quick-link col">
+                    <h3>quicklink</h3>
+                    <a href="#">
+                        New user
+                    </a>
+                    <a href="#">
+                       Help center
+                    </a>
+                    <a href="#">
+                        Report spam
+                    </a>
+                    <a href="#">
+                        FAQs
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="copy-right">Copyright &copy; 2019 Gymax - Design by ArrowHitech - All Rights Reserved</p>
+    </footer>
+    <script type="text/javascript">
+        
+        window.onscroll = function() {
+            if(window.pageYOffset >= 100) {
+                document.querySelector('.header').style.height = "4.375em";
+                document.querySelector('nav').style.lineHeight = "4.375em";
+            }else {
+                document.querySelector('.header').style.height = "6.25em";
+                document.querySelector('nav').style.lineHeight = "6.25em";
+            }
+            if(window.pageYOffset > 10) {
+                document.querySelector('.product-category').style.top = "-77px";
+            }
+            else {
+                document.querySelector('.product-category').style.opacity = "0px";
+            }
+        };
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+        ScrollReveal().reveal('.product-category', {delay: 100, origin: 'bottom'});
+
+        // function openProducts(evt, tabName) {
+        //     var i, tabcontent, tablinks;
+        //     tabcontent = document.querySelector(".products");
+        //     for (i = 0; i < tabcontent.length; i++) {
+        //         tabcontent[i].style.display = "none";
+        //     }
+        //     tablinks = document.querySelector(".tab-link");
+        //     for (i = 0; i < tablinks.length; i++) {
+        //         tablinks[i].className = tablinks[i].className.replace(" active", "");
+        //     }
+        //     document.getElementById(tabName).style.display = "block";
+        //     evt.currentTarget.className += " active";
+        // }
+
+        
+        
+    </script>
+</body>
+</html>
